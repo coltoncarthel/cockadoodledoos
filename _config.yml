@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amarillo Doodle Puppies</title>
+  <meta name="description" content="Mini Cockapoo × Mini Goldendoodle puppies — family‑raised in Amarillo, TX. Photos, parents, pricing, and application." />
+  <meta property="og:title" content="Amarillo Doodle Puppies" />
+  <meta property="og:description" content="Mini Cockapoo × Mini Goldendoodle puppies — family‑raised in Amarillo, TX." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><text y='1em' font-size='96'>🐶</text></svg>">
+  <!-- Tailwind (CDN build) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Simple fade/scale for the lightbox */
+    .modal-enter {opacity:0; transform: scale(0.98)}
+    .modal-enter-active {opacity:1; transform: scale(1); transition: all 150ms ease}
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/90 border-b border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="font-semibold tracking-tight text-lg">Amarillo Doodle Puppies</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#puppies" class="hover:text-amber-700">Puppies</a>
+        <a href="#parents" class="hover:text-amber-700">Parents</a>
+        <a href="#process" class="hover:text-amber-700">Pricing & Process</a>
+        <a href="#apply" class="hover:text-amber-700">Apply</a>
+        <a href="#faq" class="hover:text-amber-700">FAQ</a>
+      </nav>
+      <a href="#apply" class="inline-flex items-center rounded-2xl bg-amber-600 px-4 py-2 text-white text-sm font-semibold shadow hover:bg-amber-700">Apply Now</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div aria-hidden class="absolute inset-0 bg-gradient-to-br from-amber-100 via-white to-amber-50"></div>
+    <div class="relative max-w-6xl mx-auto px-4 py-16 sm:py-20">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">Mini Doodle Puppies<br class="hidden sm:block"/> arriving late&nbsp;<span class="whitespace-nowrap">September 2025*</span></h1>
+          <p class="mt-4 text-neutral-700 text-lg">Family‑raised <span class="font-semibold">Cockapoo × Mini Goldendoodle</span> litter in Amarillo, TX. Low‑shedding is common with poodle mixes, but not guaranteed. Carefully placed with loving homes.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#puppies" class="rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold shadow hover:bg-neutral-800">View Puppies</a>
+            <a href="#apply" class="rounded-2xl bg-amber-600 text-white px-5 py-3 text-sm font-semibold shadow hover:bg-amber-700">Start Application</a>
+          </div>
+          <p class="mt-4 text-sm text-neutral-500">* Update this date after whelping; typical go‑home is at 8–9 weeks.</p>
+        </div>
+        <div class="lg:justify-self-end w-full">
+          <div class="grid grid-cols-3 gap-2 sm:gap-3">
+            <!-- Replace these placeholders with your own photos -->
+            <img src="https://placehold.co/600x600?text=Previous+Litter+1" alt="Previous litter 1" class="rounded-2xl object-cover aspect-square shadow cursor-pointer gallery"/>
+            <img src="https://placehold.co/600x600?text=Previous+Litter+2" alt="Previous litter 2" class="rounded-2xl object-cover aspect-square shadow cursor-pointer gallery"/>
+            <img src="https://placehold.co/600x600?text=Previous+Litter+3" alt="Previous litter 3" class="rounded-2xl object-cover aspect-square shadow cursor-pointer gallery"/>
+            <img src="https://placehold.co/600x600?text=Parents" alt="Parents" class="rounded-2xl object-cover aspect-square shadow cursor-pointer gallery"/>
+            <img src="https://placehold.co/600x600?text=Temperament" alt="Temperament" class="rounded-2xl object-cover aspect-square shadow cursor-pointer gallery"/>
+            <img src="https://placehold.co/600x600?text=Grooming" alt="Grooming" class="rounded-2xl object-cover aspect-square shadow cursor-pointer gallery"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick facts -->
+      <div class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-2xl border border-neutral-200 bg-white p-4 text-center"><div class="text-xs uppercase tracking-wide text-neutral-500">Expected Size</div><div class="mt-1 text-lg font-semibold">15–25 lb*</div><div class="text-xs text-neutral-500">Based on parents</div></div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-4 text-center"><div class="text-xs uppercase tracking-wide text-neutral-500">Go‑Home</div><div class="mt-1 text-lg font-semibold">~ Nov 2025</div><div class="text-xs text-neutral-500">8–9 weeks</div></div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-4 text-center"><div class="text-xs uppercase tracking-wide text-neutral-500">Location</div><div class="mt-1 text-lg font-semibold">Amarillo, TX</div><div class="text-xs text-neutral-500">Pickup preferred</div></div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-4 text-center"><div class="text-xs uppercase tracking-wide text-neutral-500">Included</div><div class="mt-1 text-lg font-semibold">Vet exam, shots, kit</div><div class="text-xs text-neutral-500">See details</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Puppies (example cards; duplicate & edit per puppy) -->
+  <section id="puppies" class="max-w-6xl mx-auto px-4 py-16">
+    <div class="flex items-end justify-between gap-6">
+      <div>
+        <h2 class="text-3xl font-extrabold tracking-tight">Available Puppies</h2>
+        <p class="mt-2 text-neutral-600">Add a card for each puppy with photos, status, and notes. Mark as <span class="font-semibold">Reserved</span> once a deposit is placed.</p>
+      </div>
+      <a href="#apply" class="hidden sm:inline-flex items-center rounded-2xl bg-amber-600 px-4 py-2 text-white text-sm font-semibold shadow hover:bg-amber-700">Apply</a>
+    </div>
+
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Puppy Card Template -->
+      <article class="rounded-2xl border border-neutral-200 bg-white overflow-hidden shadow-sm">
+        <img src="https://placehold.co/800x600?text=Puppy+Photo" alt="Puppy photo" class="w-full h-52 object-cover gallery cursor-pointer" />
+        <div class="p-5">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xl font-bold">Green Collar ♂</h3>
+            <span class="inline-flex items-center text-xs font-semibold rounded-full px-2 py-1 bg-emerald-100 text-emerald-800">Available</span>
+          </div>
+          <p class="mt-2 text-sm text-neutral-600">Curious and people‑oriented. Wavy coat. Est. 18–22 lb.</p>
+          <dl class="mt-4 grid grid-cols-2 gap-3 text-sm">
+            <div><dt class="text-neutral-500">Price</dt><dd class="font-semibold">$—</dd></div>
+            <div><dt class="text-neutral-500">Deposit</dt><dd class="font-semibold">$— (goes toward price)</dd></div>
+          </dl>
+          <div class="mt-5 flex gap-2">
+            <a href="#apply" class="rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm font-semibold hover:bg-neutral-800">Apply for this pup</a>
+            <a href="#gallery" class="rounded-xl border px-4 py-2 text-sm font-semibold hover:bg-neutral-50">More photos</a>
+          </div>
+        </div>
+      </article>
+      <!-- Duplicate the article above per puppy -->
+    </div>
+  </section>
+
+  <!-- Parents -->
+  <section id="parents" class="bg-white border-y border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-extrabold tracking-tight">Meet the Parents</h2>
+      <div class="mt-8 grid sm:grid-cols-2 gap-6">
+        <article class="rounded-2xl border border-neutral-200 overflow-hidden">
+          <img src="https://placehold.co/800x600?text=Mini+Goldendoodle+Sire" alt="Mini Goldendoodle sire" class="w-full h-56 object-cover gallery cursor-pointer" />
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Sire — Mini Goldendoodle</h3>
+            <dl class="mt-2 text-sm grid sm:grid-cols-3 gap-2">
+              <div><dt class="text-neutral-500">Weight</dt><dd class="font-semibold">— lb</dd></div>
+              <div><dt class="text-neutral-500">Coat</dt><dd class="font-semibold">Curly/Wavy</dd></div>
+              <div><dt class="text-neutral-500">Traits</dt><dd class="font-semibold">Affectionate, eager</dd></div>
+            </dl>
+            <p class="mt-3 text-sm text-neutral-600">Brief temperament note and any health testing.</p>
+          </div>
+        </article>
+        <article class="rounded-2xl border border-neutral-200 overflow-hidden">
+          <img src="https://placehold.co/800x600?text=Mini+Cockapoo+Dam" alt="Mini Cockapoo dam" class="w-full h-56 object-cover gallery cursor-pointer" />
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Dam — Mini Cockapoo</h3>
+            <dl class="mt-2 text-sm grid sm:grid-cols-3 gap-2">
+              <div><dt class="text-neutral-500">Weight</dt><dd class="font-semibold">— lb</dd></div>
+              <div><dt class="text-neutral-500">Coat</dt><dd class="font-semibold">Wavy</dd></div>
+              <div><dt class="text-neutral-500">Traits</dt><dd class="font-semibold">Gentle, smart</dd></div>
+            </dl>
+            <p class="mt-3 text-sm text-neutral-600">Brief temperament note and any health testing.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- What’s included -->
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-extrabold tracking-tight">What’s Included</h2>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5"><h3 class="font-semibold">Vet Exam & 1st Vaccines</h3><p class="mt-2 text-sm text-neutral-600">Age‑appropriate vaccinations and deworming with records.</p></div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5"><h3 class="font-semibold">Microchip</h3><p class="mt-2 text-sm text-neutral-600">Registered to you at pickup.</p></div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5"><h3 class="font-semibold">Go‑Home Kit</h3><p class="mt-2 text-sm text-neutral-600">Food sample, toy/blanket with litter scent, and tips sheet.</p></div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5"><h3 class="font-semibold">Contract & Support</h3><p class="mt-2 text-sm text-neutral-600">Health guarantee and lifetime return‑to‑breeder clause.</p></div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5"><h3 class="font-semibold">Household Socializing</h3><p class="mt-2 text-sm text-neutral-600">Handled daily around kids/sounds for confident transitions.</p></div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5"><h3 class="font-semibold">Intro to Grooming</h3><p class="mt-2 text-sm text-neutral-600">Bath/blow‑dry/face‑feet practice so groomers are a breeze.</p></div>
+    </div>
+  </section>
+
+  <!-- Pricing & Process -->
+  <section id="process" class="bg-white border-y border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-extrabold tracking-tight">Pricing & Placement Process</h2>
+      <div class="mt-6 grid lg:grid-cols-2 gap-8">
+        <div class="rounded-2xl border border-neutral-200 bg-white p-6">
+          <h3 class="font-semibold text-lg">Pricing</h3>
+          <ul class="mt-3 space-y-2 text-sm text-neutral-700 list-disc list-inside">
+            <li>Pet‑only price: <span class="font-semibold">$—</span> (add sales tax if applicable).</li>
+            <li>Deposit to reserve: <span class="font-semibold">$—</span> (applies to price; refundable until 6 weeks).</li>
+            <li>Balance due at pickup via cash, cashier’s check, or invoice link.</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-6">
+          <h3 class="font-semibold text-lg">Steps</h3>
+          <ol class="mt-3 space-y-2 text-sm text-neutral-700 list-decimal list-inside">
+            <li>Submit the short application below.</li>
+            <li>We’ll schedule a quick call/visit and approve.</li>
+            <li>Place a deposit to reserve your puppy.</li>
+            <li>Weekly photo/video updates until go‑home day.</li>
+          </ol>
+          <div class="mt-4"><a href="#apply" class="inline-flex items-center rounded-xl bg-amber-600 px-4 py-2 text-white text-sm font-semibold shadow hover:bg-amber-700">Start Application</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application -->
+  <section id="apply" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-extrabold tracking-tight">Apply for a Puppy</h2>
+    <p class="mt-2 text-neutral-600">This helps us match pups to homes. Replace the iframe below with your Google Form embed (<em>Form → Send → &lt;&gt; Embed</em>) or link the button to your form.</p>
+    <div class="mt-6 rounded-2xl overflow-hidden border border-neutral-200 bg-white">
+      <!-- Replace the src with your Google Form embed URL -->
+      <iframe title="Application Form" srcdoc="<html><body style='margin:0;padding:0;display:flex;align-items:center;justify-content:center;height:100%;font-family:system-ui'>Add your Google Form embed here.</body></html>" class="w-full h-[560px]"></iframe>
+    </div>
+    <div class="mt-4">
+      <a href="#" class="inline-flex items-center rounded-2xl bg-neutral-900 px-5 py-3 text-white text-sm font-semibold shadow hover:bg-neutral-800">Open Application in New Tab</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-white border-y border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-extrabold tracking-tight">FAQ</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+          <h3 class="font-semibold">Are doodles hypoallergenic?</h3>
+          <p class="mt-2 text-sm text-neutral-700">No dog is truly hypoallergenic. Poodle mixes often shed less, but sensitivity varies by person and coat. Meet & handle a pup before deciding.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+          <h3 class="font-semibold">Pickup & shipping?</h3>
+          <p class="mt-2 text-sm text-neutral-700">Local pickup in Amarillo, TX. We prefer in‑person handoff. Ground delivery may be discussed on approval.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+          <h3 class="font-semibold">Spay/neuter?</h3>
+          <p class="mt-2 text-sm text-neutral-700">Pet‑only homes agree to spay/neuter at vet‑recommended age unless otherwise arranged in writing.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+          <h3 class="font-semibold">Price & taxes?</h3>
+          <p class="mt-2 text-sm text-neutral-700">Price is listed per pup; your invoice will reflect any required local/state taxes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <div class="rounded-3xl bg-neutral-900 text-white p-8 sm:p-10">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+        <div>
+          <h2 class="text-2xl font-bold">Questions? Want to visit?</h2>
+          <p class="mt-2 text-neutral-300">We’re happy to chat and help you find the right fit.</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a href="mailto:your@email" class="rounded-2xl bg-white text-neutral-900 px-5 py-3 text-sm font-semibold">Email Us</a>
+          <a href="tel:+1" class="rounded-2xl bg-amber-600 px-5 py-3 text-sm font-semibold">Call/Text</a>
+        </div>
+      </div>
+      <p class="mt-6 text-xs text-neutral-300">By reserving, you agree to our placement contract and lifetime return‑to‑breeder policy. Update city/state permits as required.</p>
+    </div>
+    <p class="mt-6 text-center text-sm text-neutral-500">© <span id="year"></span> Amarillo Doodle Puppies • Cockapoo × Mini Goldendoodle</p>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="fixed inset-0 hidden items-center justify-center bg-black/70 p-4">
+    <button id="closeModal" class="absolute top-4 right-4 rounded-full bg-white/90 p-2 text-sm font-semibold">✕</button>
+    <img id="lightboxImg" src="" alt="Expanded" class="modal-enter max-h-[90vh] rounded-2xl shadow-2xl" />
+  </div>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Simple lightbox
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightboxImg');
+    const closeBtn = document.getElementById('closeModal');
+
+    document.querySelectorAll('.gallery').forEach(img => {
+      img.addEventListener('click', () => {
+        lbImg.src = img.src;
+        lb.classList.remove('hidden');
+        lbImg.classList.add('modal-enter');
+        requestAnimationFrame(() => lbImg.classList.add('modal-enter-active'));
+      });
+    });
+
+    function closeLB(){ lb.classList.add('hidden'); lbImg.src = ''; lbImg.classList.remove('modal-enter','modal-enter-active'); }
+    lb.addEventListener('click', (e) => { if (e.target === lb) closeLB(); });
+    closeBtn.addEventListener('click', closeLB);
+    document.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && !lb.classList.contains('hidden')) closeLB(); });
+  </script>
+</body>
+</html>
